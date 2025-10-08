@@ -1,0 +1,237 @@
+[
+  {
+    "image": "https://i.ibb.co.com/GmJLxgL/spanchat.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "Share photos and videos, follow friends, discover content, and interact with the world.",
+    "size": 150,
+    "reviews": 12000000,
+    "ratingAvg": 4.8,
+    "downloads": 1400000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT4QbG8B/YouTube.jpg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 2,
+    "description": "Watch, upload, and share videos. Explore content across creators and topics you love.",
+    "size": 125,
+    "reviews": 23000000,
+    "ratingAvg": 4.7,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 18000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/GmJLxgL/spanchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 3,
+    "description": "Send photos and messages that disappear, explore stories, and connect with friends.",
+    "size": 85,
+    "reviews": 9600000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 220000 },
+      { "name": "3 star", "count": 480000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 8500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/R4hmDtT8/whatsApp.webp",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 4,
+    "description": "Text, voice, and video chat with individuals or groups across devices securely.",
+    "size": 100,
+    "reviews": 15000000,
+    "ratingAvg": 4.8,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/20pNpp1T/Spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 5,
+    "description": "Stream millions of songs and podcasts, create playlists, and listen offline.",
+    "size": 130,
+    "reviews": 8500000,
+    "ratingAvg": 4.6,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 6800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JwQmfbtM/TikTok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 6,
+    "description": "Short-form videos from creators around the world. Discover, create, and share.",
+    "size": 120,
+    "reviews": 20000000,
+    "ratingAvg": 4.7,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 220000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 15000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/b4zzvVw/netflix.webp",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 7,
+    "description": "Streaming service for movies, TV shows, and original content.",
+    "size": 200,
+    "reviews": 10000000,
+    "ratingAvg": 4.4,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2400000 },
+      { "name": "5 star", "count": 6700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qLNrjcCb/google-Maps.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "Get directions, view maps, explore places, and navigate traffic in real time.",
+    "size": 140,
+    "reviews": 11000000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wNjTY4Xw/Gmail.webp",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Send and receive email, manage multiple accounts, and get notifications.",
+    "size": 90,
+    "reviews": 9000000,
+    "ratingAvg": 4.5,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 6800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1tGpf7y9/Zoom-Cloud-Meetings.png",
+    "title": "Zoom Cloud Meetings",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 10,
+    "description": "Video conferencing with HD video, audio, chat, and screen sharing.",
+    "size": 110,
+    "reviews": 7000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 5300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MxrsxWCd/Slack.webp",
+    "title": "Slack",
+    "companyName": "Slack Technologies, Inc.",
+    "id": 11,
+    "description": "Team communication and collaboration with channels, messaging, and integrations.",
+    "size": 95,
+    "reviews": 3000000,
+    "ratingAvg": 4.4,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2050000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zh2nvDJt/Microsoft-Teams.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 12,
+    "description": "Chat, meet, call, and collaborate across devices in a single platform.",
+    "size": 120,
+    "reviews": 4000000,
+    "ratingAvg": 4.2,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 130000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 2400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vCWxdNkz/Dropbox.webp",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "id": 13,
+    "description": "Store, share, and access files and photos from anywhere with cloud storage.",
+    "size": 85,
+    "reviews": 2200000,
+    "ratingAvg": 4.3,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 160000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  }
+  
+]
