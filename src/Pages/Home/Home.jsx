@@ -2,7 +2,7 @@
 const Home = () => {
     return (
         <div>
-            <p>From Home</p>
+            <p className="bg-red-400 text-4xl">From Home</p>
         </div>
     );
 };
