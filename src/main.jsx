@@ -17,6 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        loader: ()=>fetch('/allAppsData.json'),
         Component: Home
       },
       {

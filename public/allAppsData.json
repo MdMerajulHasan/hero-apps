@@ -1,14 +1,14 @@
 [
   {
-    "image": "https://i.ibb.co.com/GmJLxgL/spanchat.png",
+    "image": "https://i.ibb.co.com/NgDKLTYv/instagram.webp",
     "title": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "id": 1,
     "description": "Share photos and videos, follow friends, discover content, and interact with the world.",
     "size": 150,
-    "reviews": 12000000,
+    "reviews": "12M",
     "ratingAvg": 4.8,
-    "downloads": 1400000000,
+    "downloads": "1.4B",
     "ratings": [
       { "name": "1 star", "count": 150000 },
       { "name": "2 star", "count": 300000 },
@@ -24,9 +24,9 @@
     "id": 2,
     "description": "Watch, upload, and share videos. Explore content across creators and topics you love.",
     "size": 125,
-    "reviews": 23000000,
+    "reviews": "23M",
     "ratingAvg": 4.7,
-    "downloads": 2000000000,
+    "downloads": "2B",
     "ratings": [
       { "name": "1 star", "count": 250000 },
       { "name": "2 star", "count": 400000 },
@@ -42,9 +42,9 @@
     "id": 3,
     "description": "Send photos and messages that disappear, explore stories, and connect with friends.",
     "size": 85,
-    "reviews": 9600000,
+    "reviews": "9.6M",
     "ratingAvg": 4.5,
-    "downloads": 1000000000,
+    "downloads": "1B",
     "ratings": [
       { "name": "1 star", "count": 120000 },
       { "name": "2 star", "count": 220000 },
@@ -60,9 +60,9 @@
     "id": 4,
     "description": "Text, voice, and video chat with individuals or groups across devices securely.",
     "size": 100,
-    "reviews": 15000000,
+    "reviews": "15M",
     "ratingAvg": 4.8,
-    "downloads": 5000000000,
+    "downloads": "5B",
     "ratings": [
       { "name": "1 star", "count": 200000 },
       { "name": "2 star", "count": 300000 },
@@ -78,9 +78,9 @@
     "id": 5,
     "description": "Stream millions of songs and podcasts, create playlists, and listen offline.",
     "size": 130,
-    "reviews": 8500000,
+    "reviews": "8.5M",
     "ratingAvg": 4.6,
-    "downloads": 4000000000,
+    "downloads": "4B",
     "ratings": [
       { "name": "1 star", "count": 100000 },
       { "name": "2 star", "count": 200000 },
@@ -96,9 +96,9 @@
     "id": 6,
     "description": "Short-form videos from creators around the world. Discover, create, and share.",
     "size": 120,
-    "reviews": 20000000,
+    "reviews": "20M",
     "ratingAvg": 4.7,
-    "downloads": 3000000000,
+    "downloads": "3B",
     "ratings": [
       { "name": "1 star", "count": 220000 },
       { "name": "2 star", "count": 350000 },
@@ -114,9 +114,9 @@
     "id": 7,
     "description": "Streaming service for movies, TV shows, and original content.",
     "size": 200,
-    "reviews": 10000000,
+    "reviews": "10M",
     "ratingAvg": 4.4,
-    "downloads": 2000000000,
+    "downloads": "2B",
     "ratings": [
       { "name": "1 star", "count": 180000 },
       { "name": "2 star", "count": 300000 },
@@ -132,9 +132,9 @@
     "id": 8,
     "description": "Get directions, view maps, explore places, and navigate traffic in real time.",
     "size": 140,
-    "reviews": 11000000,
+    "reviews": "11M",
     "ratingAvg": 4.7,
-    "downloads": 5000000000,
+    "downloads": "5B",
     "ratings": [
       { "name": "1 star", "count": 150000 },
       { "name": "2 star", "count": 250000 },
@@ -150,9 +150,9 @@
     "id": 9,
     "description": "Send and receive email, manage multiple accounts, and get notifications.",
     "size": 90,
-    "reviews": 9000000,
+    "reviews": "9M",
     "ratingAvg": 4.5,
-    "downloads": 3000000000,
+    "downloads": "3B",
     "ratings": [
       { "name": "1 star", "count": 100000 },
       { "name": "2 star", "count": 180000 },
@@ -168,9 +168,9 @@
     "id": 10,
     "description": "Video conferencing with HD video, audio, chat, and screen sharing.",
     "size": 110,
-    "reviews": 7000000,
+    "reviews": "7M",
     "ratingAvg": 4.3,
-    "downloads": 1000000000,
+    "downloads": "1B",
     "ratings": [
       { "name": "1 star", "count": 80000 },
       { "name": "2 star", "count": 120000 },
@@ -186,9 +186,9 @@
     "id": 11,
     "description": "Team communication and collaboration with channels, messaging, and integrations.",
     "size": 95,
-    "reviews": 3000000,
+    "reviews": "3M",
     "ratingAvg": 4.4,
-    "downloads": 600000000,
+    "downloads": "600M",
     "ratings": [
       { "name": "1 star", "count": 50000 },
       { "name": "2 star", "count": 90000 },
@@ -204,9 +204,9 @@
     "id": 12,
     "description": "Chat, meet, call, and collaborate across devices in a single platform.",
     "size": 120,
-    "reviews": 4000000,
+    "reviews": "4M",
     "ratingAvg": 4.2,
-    "downloads": 800000000,
+    "downloads": "800M",
     "ratings": [
       { "name": "1 star", "count": 70000 },
       { "name": "2 star", "count": 130000 },
@@ -222,9 +222,9 @@
     "id": 13,
     "description": "Store, share, and access files and photos from anywhere with cloud storage.",
     "size": 85,
-    "reviews": 2200000,
+    "reviews": "2.2M",
     "ratingAvg": 4.3,
-    "downloads": 800000000,
+    "downloads": "800M",
     "ratings": [
       { "name": "1 star", "count": 40000 },
       { "name": "2 star", "count": 80000 },
@@ -233,5 +233,4 @@
       { "name": "5 star", "count": 1400000 }
     ]
   }
-  
 ]
