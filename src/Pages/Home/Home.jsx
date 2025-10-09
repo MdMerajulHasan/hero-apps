@@ -1,4 +1,5 @@
 import Banner from "../../Components/Banner/Banner";
+import StatesSection from "../../Components/StatesSection/StatesSection";
 import heroPhoto from "../../assets/hero.png"
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         <Banner></Banner>
         <img className="mx-auto w-11/12 md:w-3/4 lg:w-1/2" src={heroPhoto} alt="hero photo" />
       </div>
+      <StatesSection></StatesSection>
     </div>
   );
 };
