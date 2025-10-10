@@ -51,7 +51,7 @@ const Installation = () => {
 
 
   const handleUninstall =(appId)=>{
-    const updatedAppList = installedApps.filter(app=>app.id!==appId);
+    const updatedAppList = apps.filter(app=>app.id!==appId);
     setApps(updatedAppList);
     const updatedLocalIdNum = installedIdsNum.filter(id=>id!==appId);
     const updatedLocalIdStr = updatedLocalIdNum.map(id=>toString(id));

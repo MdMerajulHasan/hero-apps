@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/installed",
-        loader:()=>fetch('/allAppsData.json'),
+        loader:()=>fetch("/allAppsData.json"),
         element: <Installation></Installation>,
       },
       {
