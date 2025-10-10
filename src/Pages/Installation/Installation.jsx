@@ -5,8 +5,9 @@ import { useState } from "react";
 const Installation = () => {
   const allApps = useLoaderData();
 
+
   const localData = localStorage.getItem("installedList");
-  const installedIds = JSON.parse(localData);
+  const installedIds = JSON.parse(localData) || [];
   const installedIdsNum = installedIds.map((id) => parseInt(id));
   const installedApps = allApps.filter((app) =>
     installedIdsNum.includes(app.id)
