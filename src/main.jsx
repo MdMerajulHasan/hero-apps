@@ -29,10 +29,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/installed",
+        loader:()=>fetch('/allAppsData.json'),
         element: <Installation></Installation>,
       },
       {
-        path: "app-details/:id",
+        path: "/app-details/:id",
         errorElement: <NoAppFound></NoAppFound>,
         loader: () => fetch("/allAppsData.json"),
         element: <AppDetails></AppDetails>,
@@ -43,6 +44,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />,
+    <RouterProvider router={router} />
   </StrictMode>
 );

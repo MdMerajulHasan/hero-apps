@@ -1,18 +1,25 @@
 import { useLoaderData } from "react-router";
 import AppCard from "../../Components/AppCard/AppCard";
 import { useEffect, useState } from "react";
+import Loading from "../Loading/Loading";
 
 const AllApps = () => {
   const appsData = useLoaderData();
 
   const [searchQuery, setSearchQuery] = useState("");
   const [showingApps, setShowingApps] = useState(appsData);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const appsToShow = appsData.filter((app) =>
-      app.title.toLowerCase().includes(searchQuery.toLocaleLowerCase())
-    );
-    setShowingApps(appsToShow);
+    setLoading(true);
+    const timer = setTimeout(() => {
+      const appsToShow = appsData.filter((app) =>
+        app.title.toLowerCase().includes(searchQuery.toLocaleLowerCase())
+      );
+      setShowingApps(appsToShow);
+      setLoading(false);
+    }, 10);
+    return () => clearTimeout(timer);
   }, [searchQuery, appsData]);
 
   return (
@@ -53,7 +60,7 @@ const AllApps = () => {
           />
         </label>
       </div>
-
+      <div className="flex justify-center items-center mt-0 pt-0">{loading && <Loading></Loading>}</div>
       {showingApps.length === 0 ? (
         <div>
           <h3 className="text-center pt-1 font-bold text-2xl md:text-4xl lg:text-5xl">

@@ -18,11 +18,38 @@ const AppDetails = () => {
   const allApps = useLoaderData();
   const [installed, setInstalled] = useState(false);
 
-  const handleInstall = () => {
-    setInstalled(!installed);
-    if (!installed) {
-      toast("Successfully Installed App");
+  const getStoredData =()=>{
+    const storedData = localStorage.getItem('installedList');
+    if(storedData){
+        const storedInstalledData = JSON.parse(storedData);
+        return storedInstalledData;
+    }else{
+        return [];
     }
+  }
+
+  const addToLocalStorage =(appId)=>{
+    const installedData = getStoredData();
+    if(installedData.includes(appId)){
+        toast('Already Installed!');
+    }else{
+        installedData.push(appId);
+        const data = JSON.stringify(installedData);
+        localStorage.setItem('installedList', data);
+    }
+  };
+
+  const handleInstall = (id) => {
+    const installedData = getStoredData();
+    if(installedData.includes(id)){
+        toast('Already Installed!');
+    }else{
+        toast("Successfully Installed App");
+        setInstalled(!installed);
+        addToLocalStorage(id);
+    }
+    
+    
   };
 
   const { id } = useParams();
@@ -85,7 +112,7 @@ const AppDetails = () => {
               </div>
               <div>
                 <button
-                  onClick={handleInstall}
+                  onClick={()=>handleInstall(id)}
                   className=" bg-[#00D390] px-5 py-3 text-white font-semibold text-xl rounded mt-8"
                 >
                   {installed ? "Installed" : `Install Now(${size})`}

@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import Banner from "../../Components/Banner/Banner";
 import StatesSection from "../../Components/StatesSection/StatesSection";
 import heroPhoto from "../../assets/hero.png";
@@ -35,7 +35,7 @@ const Home = () => {
         </div>
         <div className="flex justify-center items-center pt-10 pb-20">
           <button className="rounded bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-center font-semibold text-white px-10 py-3 ">
-            <a href="/all-apps">Show All</a>
+            <Link to="/all-apps">Show All</Link>
           </button>
         </div>
       </div>
