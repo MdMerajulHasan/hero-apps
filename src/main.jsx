@@ -9,6 +9,7 @@ import Home from "./Pages/Home/Home";
 import Installation from "./Pages/Installation/Installation";
 import AllApps from "./Pages/AllApps/AllApps";
 import AppDetails from "./Pages/AppDetails/AppDetails";
+import NoAppFound from "./Pages/NoAppFound/NoAppFound";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,7 @@ const router = createBrowserRouter([
       },
       {
         path: "app-details/:id",
+        errorElement: <NoAppFound></NoAppFound>,
         loader: () => fetch("/allAppsData.json"),
         element: <AppDetails></AppDetails>,
       },
